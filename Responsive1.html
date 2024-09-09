@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design 1</title>
+
+    <style>
+
+        
+        #main{
+            
+            text-align: center;
+            background-color: #f2f2f2;
+            font-family: sans-serif;
+            padding: 20px;
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+        #main > div {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+
+        }
+        #main > div > div> img:nth-child(1){
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        #main > div > div{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #main > div > div > div{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 5px 0px;
+        }
+
+        #main > div > div > div > div > img{
+            width: 20px;
+            padding: 5px;
+    
+            
+        }
+
+        #main > div > div > div > div > button{
+            padding: 15px 10px;
+            border: none;
+            background-color: transparent;
+            color: red;
+            font-weight: bold;
+            border-right: 2px dotted red;
+                     
+            
+        }
+
+        #main > div > div > div > div{
+            display: flex;
+            align-items: center;
+            border: 2px dotted red;
+            border-radius: 10px;
+            background-color: #fee9f0;
+            
+        }
+
+        @media screen and (min-width:768px) and (max-width:1080px) {
+            #main > div{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+
+        @media screen and (max-width:767px) {
+            #main > div{
+                grid-template-columns: repeat(1,1fr);
+            }
+            h2{
+                font-size: 1.2em;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <h2>━━ OFFERS ━━</h2>
+        <div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/e1a394e0-9c14-45e0-999e-16ad9589b46a.jpg" alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>DEAL500</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/bdb4b316-8392-486a-8782-f6453f0c5540.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>SLINGBLING999</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/937299cf-ede2-4f96-baa1-fb36ac44a513.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>PALETTE1299</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/771c6c5c-4389-4aed-b77c-e15dc5884862.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>FREECLUTCH</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/68b0c0a4-02f4-4cc0-be7c-635954106635.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>GLITTER599</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/e850895b-b450-4f6b-9ef7-a5ec0a14ea5d.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>OFFER799</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/905ac99c-03ec-4b5c-8a5f-fdb747de1f3b.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>DEAL300</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/e1a394e0-9c14-45e0-999e-16ad9589b46a.jpg"  alt="Image Loading Failed"> 
+                <div>
+                    <div>
+                        <button>DEAL500</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/e1a394e0-9c14-45e0-999e-16ad9589b46a.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>DEAL500</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/e1a394e0-9c14-45e0-999e-16ad9589b46a.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>DEAL500</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/e1a394e0-9c14-45e0-999e-16ad9589b46a.jpg"  alt="Image Loading Failed">
+                <div>
+                    <div>
+                        <button>DEAL500</button>
+                        <img src="https://cdn-icons-png.flaticon.com/128/9428/9428873.png"  alt="Image Loading Failed">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
